@@ -1,0 +1,11 @@
+# 환경 변수 파일 - GitHub에 절대 올리지 않습니다
+.env
+.env.local
+.env.*.local
+
+# OS 파일
+.DS_Store
+Thumbs.db
+
+# Node
+node_modules/
