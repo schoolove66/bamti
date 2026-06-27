@@ -60,7 +60,7 @@ export default async function handler(req, res) {
 - 한국어로 응답해 주세요.`;
 
   // Gemini REST API 호출 (Node.js 내장 fetch 사용, SDK 미사용)
-  const geminiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent?key=${apiKey}`;
+  const geminiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-3.1-flash-lite:generateContent?key=${apiKey}`;
 
   try {
     const geminiResponse = await fetch(geminiUrl, {
